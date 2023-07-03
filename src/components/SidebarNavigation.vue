@@ -1,4 +1,5 @@
 <template>
+  <AppTitle />
   <div class="flex">
     <div>
       <router-link to="/" class="nav-box active">
@@ -25,6 +26,7 @@
 </template>
 <script setup lang="ts">
 import router from "@/router";
+import AppTitle from "@/components/AppTitle.vue";
 
 const currentRoute = router.currentRoute;
 console.log(currentRoute); /* printing it for future use */
