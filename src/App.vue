@@ -3,10 +3,14 @@
 </template>
 
 <style>
-#app {
+html {
   min-height: 100vh;
-  background: #f8f9fa;
   font-family: Inter, Helvetica, Arial, sans-serif;
   color: #344767;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url(assets/Inter-VariableFont_slnt\wght.ttf);
 }
 </style>
