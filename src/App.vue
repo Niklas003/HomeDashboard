@@ -4,6 +4,7 @@
 
 <style>
 html {
+  background-color: #f8f9fa;
   min-height: 100vh;
   font-family: Inter, Helvetica, Arial, sans-serif;
   color: #344767;
